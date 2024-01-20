@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .main {
+        text-align: center;
+        width: fit-content;
+        padding: 50px;
+        margin: 20px auto;
+        background: rgb(58, 56, 56);
+        border-radius: 10px;
+      }
+      .upper {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+      }
+      .upper_lower {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .upper_lower p {
+        font-weight: 700;
+        color: yellow;
+      }
+
+      img {
+        margin: 0 auto;
+        width: 80px;
+        border-radius: 50%;
+      }
+
+      .lower {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 15px;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      li {
+        background: rgb(84, 80, 80);
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        color: white;
+      }
+      li:hover {
+        background: rgb(177, 192, 38);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="upper">
+        <img src="/assets/images/avatar-jessica.jpeg" alt="avator" srcset="" />
+        <div class="upper_lower">
+          <h2>Jessica Randall</h2>
+          <p>London, United Kingdom</p>
+        </div>
+      </div>
+      <div class="lower">
+        <p>"Front-end developer and avid reader."</p>
+        <ul>
+          <li>GitHub</li>
+          <li>Frontend Mentor</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/Abdirizackmasta"
+          >Abdirizack</a
+        >.
+      </div>
+    </div>
+  </body>
+</html>
